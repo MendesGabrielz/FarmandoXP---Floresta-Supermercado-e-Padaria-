@@ -1,0 +1,409 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yeseva+One&display=swap');
+
+
+body {
+    background-color: #A3CF9F;
+    margin: 0px;
+    height: 100dvh;
+}
+
+
+/* ESPAÇO PARA O HEADER E O NOSSA HISTORIA
+ESPAÇO PARA O HEADER E O NOSSA HISTORIA
+ESPAÇO PARA O HEADER E O NOSSA HISTORIA
+ESPAÇO PARA O HEADER E O NOSSA HISTORIA
+ESPAÇO PARA O HEADER E O NOSSA HISTORIA
+ESPAÇO PARA O HEADER E O NOSSA HISTORIA
+
+*/
+
+
+
+
+
+
+
+
+/* FIM DO ESPAÇO PARA O HEADER E O NOSSA HISTORIA
+FIM DO ESPAÇO PARA O HEADER E O NOSSA HISTORIA
+FIM DO ESPAÇO PARA O HEADER E O NOSSA HISTORIA
+FIM DO ESPAÇO PARA O HEADER E O NOSSA HISTORIA
+FIM DO ESPAÇO PARA O HEADER E O NOSSA HISTORIA
+FIM DO ESPAÇO PARA O HEADER E O NOSSA HISTORIA
+
+*/
+
+
+.container-quintandas {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+
+        color: #33602E;
+        font-family: "Poppins", sans-serif;
+    }
+}
+
+.container-secoes {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+
+        color: #33602E;
+        font-family: "Poppins", sans-serif;
+    }
+}
+
+.conteudo {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    padding: 60px;
+
+
+    h1 {
+
+        color: #497145;
+        font-family: "Poppins", sans-serif;
+    }
+
+    p {
+
+        color: #042B00;
+        font-family: "Poppins", sans-serif;
+    }
+}
+
+.conteudo-esquerda {
+
+    width: 40%;
+
+    img {
+
+        width: 400px;
+
+    }
+}
+
+.conteudo-direita {
+
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+
+    h1 {
+
+        font-size: 50px;
+        font-family: "Poppins", sans-serif;
+    }
+
+    p {
+
+        font-size: 25px;
+    }
+}
+
+.swiper {
+    width: 100%;
+    max-width: 1200px;
+    height: 560px;
+    overflow: visible;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .35s ease;
+}
+
+.swiper-slide img {
+    width: 340px;
+    height: 450px;
+    border-radius: 25px;
+    object-fit: cover;
+    transition: .35s ease;
+}
+
+.swiper-slide-active img {
+    width: 384px;
+    height: 534px;
+    border-radius: 25px;
+}
+
+.swiperSecoes {
+    width: 100%;
+    height: 100%;
+}
+
+.swiperSecoes .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #C8DEC6;
+    font-size: 18px;
+    text-align: center;
+    height: auto;
+    border-radius: 25px;
+}
+
+.swiperSecoes .swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.mySwiper {
+    height: 650px;
+    text-align: center;
+}
+
+.mySwiper .swiper-slide h1 {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: .35s ease;
+    font-family: "Yeseva One", serif;
+}
+
+.mySwiper .swiper-slide-active h1 {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.container-tudo {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#localizacao,
+#secoes,
+#quintandas {
+
+    color: #33602E;
+    font-size: 70px;
+    font-family: "Yeseva One", serif;
+    margin: 60px 0px 60px 0px;
+}
+
+.container-mapa {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 40px;
+}
+
+
+.direita-mapa {
+
+    display: flex;
+    flex-direction: column;
+
+    h1 {
+
+        color: #042B00;
+        font-size: 25px;
+        font-family: "Poppins", sans-serif;
+    }
+}
+
+#texto-entre {
+
+    color: #042B00;
+    font-size: 30px;
+}
+
+.endereco-mapa {
+
+    display: flex;
+    gap: 40px;
+    width: auto;
+    padding: 10px;
+    align-items: center;
+
+    background-color: #C8DEC6;
+    border-radius: 20px;
+}
+
+.redes-sociais-mapa {
+
+    display: flex;
+    gap: 40px;
+    width: auto;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #C8DEC6;
+    border-radius: 20px;
+}
+
+.redes-sociais-global {
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.img-mapa {
+
+    width: 62px;
+    height: 56px;
+}
+
+.mapa {
+    width: 100%;
+    max-width: 1200px;
+    margin: 60px auto;
+}
+
+.mapa iframe {
+    width: 600px;
+    height: 550px;
+    border: none;
+    border-radius: 20px;
+}
+
+
+/* ESPAÇO PARA O FOOTER
+ESPAÇO PARA O FOOTER
+ESPAÇO PARA O FOOTER
+ESPAÇO PARA O FOOTER
+ESPAÇO PARA O FOOTER
+ESPAÇO PARA O FOOTER
+
+*/
+
+
+
+footer {
+    width: 100%;
+    background: url("../img/Group 5.svg") center center/cover no-repeat;
+    padding: 35px 0;
+}
+
+.footer {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-logo,
+.footer-contato,
+.footer-creditos {
+    flex: 1;
+}
+
+
+.divisor {
+    width: 1px;
+    height: 170px;
+    background: rgba(255, 255, 255, .25);
+    margin: 0 30px;
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.footer-logo img {
+    width: 120px;
+}
+
+.footer-logo p {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+
+}
+
+
+
+.footer-contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+    font-family: "Poppins", sans-serif;
+}
+
+.footer-contato h3 {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 6px;
+    font-size: 20px;
+}
+
+.contato {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contato img {
+    width: 20px;
+}
+
+.contato span {
+    color: #fff;
+    font-size: 25px;
+}
+
+
+
+
+.footer-creditos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    font-family: "Poppins", sans-serif;
+}
+
+.footer-creditos p {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.footer-creditos img {
+    width: 120px;
+}
+
+
+
+/* FIM DO ESPAÇO PARA O FOOTER
+FIM DO ESPAÇO PARA O FOOTER
+FIM DO ESPAÇO PARA O FOOTER
+FIM DO ESPAÇO PARA O FOOTER
+FIM DO ESPAÇO PARA O FOOTER
+FIM DO ESPAÇO PARA O FOOTER
+
+*/

@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.secao-1 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+
+    background: #d9ebd0;
+    
+}
+
+.mercado{
+    position: absolute;
+    width: 110%;
+    height: auto;
+
+    left: 0;
+    top: 0px;   
+
+    z-index: 1;
+    
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 20dvh;
+
+    background: linear-gradient(
+        to bottom,
+        rgba(179,221,168,.75) 0%,
+        rgba(179,221,168,.35) 45%,
+        rgba(179,221,168,.10) 70%,
+        transparent 100%
+    );
+
+    z-index: 2;
+}
+
+.circulo {
+    position: absolute;
+
+    width: 1800px;
+    height: 1100px;
+
+    border-radius: 50%;
+    overflow: hidden;
+
+    background-color: #A3CF9F;
+
+    top: -600px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    z-index: 3;
+}
+
+.circulo::before {
+    content: "";
+
+    position: absolute;
+    inset: 0;
+
+    background-image: url("img/fundo-header.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 70%;
+
+    opacity: 45%;
+
+    z-index: 1;
+}
+
+.conteudo-header {
+    position: relative;
+    z-index: 4;
+}
+
+nav {
+    width: 85%;
+    height: 74px;
+
+    margin: 30px auto 0px auto;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background: rgba(211, 255, 207, 0.5);
+
+    border-radius: 40px;
+
+    padding: 0 45px;
+
+
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    
+}
+
+nav a {
+    font-size: 20px;
+    font-family: "Yeseva One";
+
+    text-decoration: none;
+    color: #2e472d;
+    font-weight: bold;
+}
+
+nav h2 {
+    font-size: 40px;
+    color: #2e472d;
+
+}
+
+.texto {
+
+    width: 960px;
+
+    margin: 40px auto;
+
+    text-align: center;
+}
+
+.texto h1 {
+
+    font-size: 70px;
+    font-family: "Yeseva One";
+
+    color: #33602E;
+
+    margin-bottom: 20px;
+
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+.texto p {
+
+    font-size: 24px;
+    font-family: "Parkinsans";
+
+    line-height: 1.6;
+
+    color: #042B00;
+}
+
+.historia{
+    width: 100%;
+    min-height: 100vh;
+
+    background: #A3CF9F;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+
+    padding: 100px 10%;
+
+}
+
+.historia-texto{
+    width: 500px;
+}
+
+.historia-texto h2{
+    font-size: 55px;
+    font-family: "Yeseva One";
+
+    color: #33602E;
+
+    margin-bottom: 30px;    
+}
+
+.historia-texto p{
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+
+    line-height: 1.8;
+    color: #042B00;
+
+    margin-bottom: 20px;
+}
+
+.historia-img img{
+    width: 500px;
+    height: 620px;
+
+    object-fit: cover;
+
+    border-radius: 35px;
+}
